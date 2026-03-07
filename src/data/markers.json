@@ -2,18 +2,18 @@
   {
   "id": "welcome",
   "title": "Welcome to the iPhithi Connected Nature Trail",
-  "hook": "Today, you are standing in what was once a dense plantation of skyscraper-high invasive trees; you can see the ‘After’ image all around you.",
+  "hook": "Today, you are standing in what was once a dense plantation of skyscraper-high invasive trees; the ‘After’ image is all around you, the Before image, is below.",
   "beforeImage": {
-    "src": "images/iphithi-now.webp",
-    "alt": "iPhithi Nature Reserve 12 years after restoration began",
+    "src": "images/iphithi-before.webp",
+    "alt": "iPhithi Nature Reserve before restoration began",
     "caption": "iPhithi Nature Reserve now provides wetland, grassland, & woodland habitats, and the wildlife that depends on connected habitat."
   },
   "transformationLine": "The water returned 2 weeks after the last tree was felled. The growth you see today regenerated from the seed bed, and visiting pollinators.",
   "whatItSupportsNow": "iPhithi Nature Reserve now provides wetland, grassland, & woodland habitats, and the wildlife that depends on connected habitat.",
   "supportingImages": [
     {
-      "src": "images/iphithi-before.webp",
-      "alt": "iPhithi Nature Reserve before restoration began",
+      "src": "images/iphithi-now.webp",
+      "alt": "iPhithi Nature Reserve 12 years after restoration began",
       "caption": "Before restoration began, this abandoned land was dominated by alien plantation that dried up the stream and provided no support for wildlife."
     }
   ],
