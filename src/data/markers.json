@@ -2,7 +2,7 @@
   {
   "id": "welcome",
   "title": "Welcome to the iPhithi Connected Nature Trail",
-  "hook": "Scan, explore, and see how a restored, thriving reserve, connects to the suburb, and local gardens.",
+  "hook": "Start where you are. Scan the nearest marker to discover what this place was, what it supports now, and how those connections continue into nearby gardens.",
   "beforeImage": {
     "src": "images/iphithi-before.webp",
     "alt": "iPhithi Nature Reserve before restoration",
@@ -17,8 +17,8 @@
       "caption": "From above, the restored reserve reveals water, open habitat, and connected green space that visitors cannot fully see from the ground."
     }
   ],
-  "quickView": "This mobile trail has short stops you can read in under a minute. Each one starts with a before image, then shows how restoration supports wildlife and connects reserve, suburb, and garden.",
-  "goDeeper": "iPhithi is more than a green patch. It is part of a wider living network. This trail helps visitors notice how restored habitats support pollinators, water systems, and wildlife movement beyond the reserve fence.",
+  "quickView": "This trail is designed to be explored in place. Scan the marker nearest you to uncover the story of that habitat — from before restoration to the life it supports now, and the ways nearby gardens can help extend those connections.",
+  "goDeeper": "iPhithi is more than a green patch. It is part of a wider living network, and each marker reveals one piece of that story. As you move through the reserve, the trail helps you notice how restored habitats support pollinators, water systems, and wildlife movement beyond the fence and into the suburb.",
   "reserveSuburbGarden": "What happens inside a reserve does not stay inside a reserve. Water flows outward, pollinators move across boundaries, and gardens can either extend or break the network.",
   "tryAtHome": "As you explore, look for one idea you could copy at home — a wetter corner, more indigenous flowers, or layered planting that helps wildlife move."
   },
