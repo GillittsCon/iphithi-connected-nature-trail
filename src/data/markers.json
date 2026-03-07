@@ -105,5 +105,34 @@
     "goDeeper": "Nature does not thrive in isolated islands. Green corridors help wildlife move between gardens, reserves, and other patches of habitat for feeding, shelter, breeding, and recovery after disturbance. In suburbs, connected planting, layered vegetation, and fewer barriers can make the difference between a broken landscape and a living network.",
     "reserveSuburbGarden": "A reserve works better when it is not cut off. Gardens can either block movement or help create stepping stones that connect wildlife to shelter, food, and safer routes.",
     "tryAtHome": "Add indigenous layering — even one shrub or small tree can help create a stepping stone between green spaces."
-  }
+  },
+  {
+  "id": "dam",
+  "title": "Dam / Dragonflies & Frogs",
+  "hook": "By day, look for dragonflies. At dusk, listen for frogs.",
+  "beforeImage": {
+    "src": "images/dam.webp",
+    "alt": "Before restoration view of the dam area",
+    "caption": "The dam area before restoration work and habitat recovery."
+  },
+  "transformationLine": "From a neglected water edge to a seasonal hotspot for dragonflies, frogs, and other wetland life.",
+  "whatItSupportsNow": "Dragonflies, frogs, wetland insects, birds, and other life linked to open water and dam-edge habitat.",
+  "audioSrc": "audio/dam-frog-calls.m4a",
+  "supportingImages": [
+    {
+      "src": "images/dam-dragonfly.webp",
+      "alt": "Dragonfly seen near the dam at iPhithi Nature Reserve",
+      "caption": "Dragonflies use open water and nearby vegetation for hunting, resting, and breeding."
+    },
+    {
+      "src": "images/dam-frogs.webp",
+      "alt": "Frog habitat at the dam edge in iPhithi Nature Reserve",
+      "caption": "At dusk, the dam edge becomes an important listening point for frog calls and wetland life."
+    }
+  ],
+  "quickView": "The dam is a good place to pause and notice seasonal change. On warm sunny days, dragonflies patrol the water’s edge. Later, as light fades, frogs begin to call from the dam and nearby wetland vegetation.",
+  "goDeeper": "Open water adds another layer to the reserve story. Dragonflies depend on healthy freshwater habitat for breeding, while frogs rely on wet places for calling, shelter, and reproduction. This means the dam is not just a scenic feature. It is part of a living system that supports insects, amphibians, birds, and the wider wetland food web through changing seasons and times of day.",
+  "reserveSuburbGarden": "Even small ponds, marshy corners, and pesticide-free gardens can help extend this web of life beyond the reserve. Water connects habitats, and the creatures it supports do not always stay in one place.",
+  "tryAtHome": "Add shallow water, avoid pesticides near ponds, plant indigenous wetland-edge species where possible, and leave some natural shelter for frogs and insects."
+}
 ]

@@ -21,16 +21,16 @@ export default function MarkerDetail({ marker }) {
     ],
     summer: [
       {
-        title: "Dragonflies at the dam",
-        text: "Warm sunny days are a good time to look for dragonflies near open water around the dam.",
-        link: "./?marker=water-wetland",
-        linkLabel: "Start at Water / Wetland",
+        title: "Dragonflies & frogs calls at the dam",
+        text: "Warm sunny days are a good time to look for dragonflies near open water around the dam, and at dusk, relax and listen to a variety of frog calls.",
+        link: "./?marker=dam",
+        linkLabel: "Start at the dam",
       },
       {
         title: "Wetland flowers along the stream",
         text: "Summer is a good season to walk the stream route and long boardwalk to notice flowering wetland plants.",
         link: "./?marker=water-wetland",
-        linkLabel: "Start at Water / Wetland",
+        linkLabel: "Start at stream below the dam",
       },
       {
         title: "Grasses in flower",
@@ -185,6 +185,16 @@ export default function MarkerDetail({ marker }) {
           </figure>
         ))}
       </section>
+
+            {marker.audioSrc && (
+        <section>
+          <h2>Listen to frogs at dusk</h2>
+          <audio controls preload="none">
+            <source src={marker.audioSrc} type="audio/mp4" />
+            Your browser does not support the audio element.
+          </audio>
+        </section>
+      )}
 
       <section>
         <h2>Reserve → Suburb → Garden</h2>
