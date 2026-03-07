@@ -138,6 +138,46 @@ strong {
   margin-bottom: 0;
 }
 
+.season-buttons .season-spring {
+  border-color: #9bbf7a;
+}
+
+.season-buttons .season-spring.active {
+  background: #9bbf7a;
+  border-color: #9bbf7a;
+  color: #1f2a21;
+}
+
+.season-buttons .season-summer {
+  border-color: #d8b84c;
+}
+
+.season-buttons .season-summer.active {
+  background: #d8b84c;
+  border-color: #d8b84c;
+  color: #1f2a21;
+}
+
+.season-buttons .season-autumn {
+  border-color: #a85f3d;
+}
+
+.season-buttons .season-autumn.active {
+  background: #a85f3d;
+  border-color: #a85f3d;
+  color: #f5f5f0;
+}
+
+.season-buttons .season-winter {
+  border-color: #6fa3c8;
+}
+
+.season-buttons .season-winter.active {
+  background: #6fa3c8;
+  border-color: #6fa3c8;
+  color: #1f2a21;
+}
+
 figure {
   margin: 0 0 22px;
 }

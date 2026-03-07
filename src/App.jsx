@@ -111,28 +111,28 @@ export default function App() {
         <div className="season-buttons">
           <button
             type="button"
-            className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
+            className={selectedSeason === "spring" ? "toggle-button season-spring active" : "toggle-button season-spring"}
             onClick={() => setSelectedSeason("spring")}
           >
             Spring
           </button>
           <button
             type="button"
-            className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
+            className={selectedSeason === "summer" ? "toggle-button season-summer active" : "toggle-button season-summer"}
             onClick={() => setSelectedSeason("summer")}
           >
             Summer
           </button>
           <button
             type="button"
-            className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
+            className={selectedSeason === "autumn" ? "toggle-button season-autumn active" : "toggle-button season-autumn"}
             onClick={() => setSelectedSeason("autumn")}
           >
             Autumn
           </button>
           <button
             type="button"
-            className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
+            className={selectedSeason === "winter" ? "toggle-button season-winter active" : "toggle-button season-winter"}
             onClick={() => setSelectedSeason("winter")}
           >
             Winter
