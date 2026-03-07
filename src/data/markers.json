@@ -2,22 +2,22 @@
   {
   "id": "welcome",
   "title": "Welcome to the iPhithi Connected Nature Trail",
-  "hook": "Start where you are. Scan the nearest marker to discover what this place was, what it supports now, and how those connections continue into nearby gardens.",
+  "hook": "Today, you are standing in what was once a dense plantation of skyscraper-high invasive trees; the ‘now’ image is all around you.",
   "beforeImage": {
-    "src": "images/iphithi-before.webp",
-    "alt": "iPhithi Nature Reserve before restoration",
-    "caption": "Before restoration, this abandoned land was dominated by alien plantation that dried up the stream and provided no support for wildlife."
+    "src": "images/iphithi-now.webp",
+    "alt": "iPhithi Nature Reserve 12 years after restoration began",
+    "caption": "iPhithi Nature Reserve now provides wetland, grassland, & woodland habitats, and the wildlife that depends on connected habitat."
   },
   "transformationLine": "Today, visitors are standing in the restored landscape itself; the ‘now’ image is all around you.",
   "whatItSupportsNow": "iPhithi Nature Reserve now provides wetland, grassland, & woodland habitats, and the wildlife that depends on connected habitat.",
   "supportingImages": [
     {
-      "src": "images/iphithi-now.webp",
-      "alt": "iPhithi Nature Reserve after restoration",
-      "caption": "From above, the restored reserve reveals water, open habitat, and connected green space that visitors cannot fully see from the ground."
+      "src": "images/iphithi-before.webp",
+      "alt": "iPhithi Nature Reserve before restoration began",
+      "caption": "Before restoration began, this abandoned land was dominated by alien plantation that dried up the stream and provided no support for wildlife."
     }
   ],
-  "quickView": "This trail is designed to be explored in place. Scan the marker nearest you to uncover the story of that habitat — from before restoration to the life it supports now, and the ways nearby gardens can help extend those connections.",
+  "quickView": "This trail is designed to be explored in place. Start where you are. Scan the nearest marker to discover what this place was, what it supports now, and ways nearby gardens can help extend those connections.",
   "goDeeper": "iPhithi is more than a green patch. It is part of a wider living network, and each marker reveals one piece of that story. As you move through the reserve, the trail helps you notice how restored habitats support pollinators, water systems, and wildlife movement beyond the fence and into the suburb.",
   "reserveSuburbGarden": "What happens inside a reserve does not stay inside a reserve. Water flows outward, pollinators move across boundaries, and gardens can either extend or break the network.",
   "tryAtHome": "As you explore, look for one idea you could copy at home — a wetter corner, more indigenous flowers, or layered planting that helps wildlife move."
