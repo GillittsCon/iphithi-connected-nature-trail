@@ -88,58 +88,6 @@ export default function MarkerDetail({ marker }) {
         <p>{marker.whatItSupportsNow}</p>
       </section>
 
-      {marker.id === "welcome" && (
-        <section>
-          <h2>Seasonal highlights</h2>
-          <p>Choose a season to see what to look for and where to start.</p>
-
-          <div className="season-buttons">
-            <button
-              type="button"
-              className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("spring")}
-            >
-              Spring
-            </button>
-            <button
-              type="button"
-              className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("summer")}
-            >
-              Summer
-            </button>
-            <button
-              type="button"
-              className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("autumn")}
-            >
-              Autumn
-            </button>
-            <button
-              type="button"
-              className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("winter")}
-            >
-              Winter
-            </button>
-          </div>
-
-          <div className="seasonal-highlights">
-            {currentHighlights.map((item) => (
-              <section key={item.title} className="season-highlight-card">
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-                <p>
-                  <a href={item.link}>
-                    <strong>{item.linkLabel}</strong>
-                  </a>
-                </p>
-              </section>
-            ))}
-          </div>
-        </section>
-      )}
-
       <section>
         {marker.id === "welcome" && (
           <p className="toggle-helper">
@@ -186,7 +134,7 @@ export default function MarkerDetail({ marker }) {
         ))}
       </section>
 
-            {marker.audioSrc && (
+      {marker.audioSrc && (
         <section>
           <h2>Listen to frogs at dusk</h2>
           <audio controls preload="none">
@@ -209,7 +157,7 @@ export default function MarkerDetail({ marker }) {
       <nav className="page-footer-links" aria-label="Page links">
         <a href="#top">Back to top</a>
         <a href="./?marker=welcome">Welcome</a>
-        <a href="./?marker=trail-links">Trail Links</a>
+        <a href="./?marker=trail-links">Explore the Trail</a>
       </nav>
     </main>
   )
