@@ -113,7 +113,7 @@
   "beforeImage": {
     "src": "images/dam.webp",
     "alt": "Before restoration view of the dam area",
-    "caption": "The dam area before restoration work and habitat recovery."
+    "caption": "The open water area before restoration work and habitat recovery."
   },
   "transformationLine": "From a neglected water edge to a seasonal hotspot for dragonflies, frogs, and other wetland life.",
   "whatItSupportsNow": "Dragonflies, frogs, wetland insects, birds, and other life linked to open water and dam-edge habitat.",
@@ -122,17 +122,17 @@
     {
       "src": "images/dam-dragonfly.webp",
       "alt": "Dragonfly seen near the dam at iPhithi Nature Reserve",
-      "caption": "Dragonflies use open water and nearby vegetation for hunting, resting, and breeding."
+      "caption": "Julia skimmer female. Dragonflies use open water and nearby vegetation for hunting, resting, and breeding."
     },
     {
       "src": "images/dam-frogs.webp",
       "alt": "Frog habitat at the dam edge in iPhithi Nature Reserve",
-      "caption": "At dusk, the dam edge becomes an important listening point for frog calls and wetland life."
+      "caption": "Two small Painted Reed frogs nestled in a wetland reed. At dusk, the dam edge becomes an important listening point for frog calls and wetland life."
     }
   ],
   "quickView": "The dam is a good place to pause and notice seasonal change. On warm sunny days, dragonflies patrol the water’s edge. Later, as light fades, frogs begin to call from the dam and nearby wetland vegetation.",
   "goDeeper": "Open water adds another layer to the reserve story. Dragonflies depend on healthy freshwater habitat for breeding, while frogs rely on wet places for calling, shelter, and reproduction. This means the dam is not just a scenic feature. It is part of a living system that supports insects, amphibians, birds, and the wider wetland food web through changing seasons and times of day.",
   "reserveSuburbGarden": "Even small ponds, marshy corners, and pesticide-free gardens can help extend this web of life beyond the reserve. Water connects habitats, and the creatures it supports do not always stay in one place.",
-  "tryAtHome": "Add shallow water, avoid pesticides near ponds, plant indigenous wetland-edge species where possible, and leave some natural shelter for frogs and insects."
+  "tryAtHome": "Add shallow water, avoid pesticides near ponds, redirect roof water into the garden, and plant indigenous wetland-edge species where water pools, and leave some natural shelter for frogs and insects."
 }
 ]
