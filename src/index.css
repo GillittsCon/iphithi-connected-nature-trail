@@ -173,3 +173,25 @@ figcaption {
 .try-at-home-card h2 {
   margin-bottom: 10px;
 }
+
+.seasonal-highlights {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.season-highlight-card {
+  border: 1px solid #9fb59f;
+  border-radius: 14px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.season-highlight-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.season-highlight-card p:last-child {
+  margin-bottom: 0;
+}

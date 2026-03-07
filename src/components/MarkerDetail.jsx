@@ -4,6 +4,73 @@ export default function MarkerDetail({ marker }) {
   const [viewMode, setViewMode] = useState("quick")
   const [selectedSeason, setSelectedSeason] = useState("summer")
 
+  const seasonalHighlights = {
+    spring: [
+      {
+        title: "Fresh wetland growth",
+        text: "Spring is a good time to explore new wetland growth and look closely at the stream and boardwalk areas.",
+        link: "./?marker=water-wetland",
+        linkLabel: "Start at Water / Wetland",
+      },
+      {
+        title: "Grassland waking up",
+        text: "As the reserve warms up, the grassland begins shifting into a more active season for flowers, insects, and pollinators.",
+        link: "./?marker=pollinators",
+        linkLabel: "Start at Pollinators / Grassland",
+      },
+    ],
+    summer: [
+      {
+        title: "Dragonflies at the dam",
+        text: "Warm sunny days are a good time to look for dragonflies near open water around the dam.",
+        link: "./?marker=water-wetland",
+        linkLabel: "Start at Water / Wetland",
+      },
+      {
+        title: "Wetland flowers along the stream",
+        text: "Summer is a good season to walk the stream route and long boardwalk to notice flowering wetland plants.",
+        link: "./?marker=water-wetland",
+        linkLabel: "Start at Water / Wetland",
+      },
+      {
+        title: "Grasses in flower",
+        text: "Flowering grasses help show why grassland matters for pollinators, seed life, and the wider food web.",
+        link: "./?marker=pollinators",
+        linkLabel: "Start at Pollinators / Grassland",
+      },
+    ],
+    autumn: [
+      {
+        title: "Seed heads and late grassland colour",
+        text: "Autumn is a good time to notice grassland seed heads and the changing structure of the reserve.",
+        link: "./?marker=pollinators",
+        linkLabel: "Start at Pollinators / Grassland",
+      },
+      {
+        title: "Water’s slower seasonal shift",
+        text: "The wetland still tells an important story in autumn, especially if you look at how water shapes life through the reserve.",
+        link: "./?marker=water-wetland",
+        linkLabel: "Start at Water / Wetland",
+      },
+    ],
+    winter: [
+      {
+        title: "Woodland structure and shelter",
+        text: "Winter is a good time to notice the shape of corridors and how sheltered spaces help movement through the reserve.",
+        link: "./?marker=green-corridors",
+        linkLabel: "Start at Green Corridors / Woodland",
+      },
+      {
+        title: "Grassland form and resilience",
+        text: "Without summer growth, winter makes it easier to notice grassland form, texture, and resilience.",
+        link: "./?marker=pollinators",
+        linkLabel: "Start at Pollinators / Grassland",
+      },
+    ],
+  }
+
+  const currentHighlights = seasonalHighlights[selectedSeason]
+
   return (
     <main>
       <h1>{marker.title}</h1>
@@ -26,36 +93,50 @@ export default function MarkerDetail({ marker }) {
           <h2>Seasonal highlights</h2>
           <p>Choose a season to see what to look for and where to start.</p>
 
-      <div className="season-buttons">
-        <button
-          type="button"
-          className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
-          onClick={() => setSelectedSeason("spring")}
-        >
-          Spring
-        </button>
-        <button
-          type="button"
-          className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
-          onClick={() => setSelectedSeason("summer")}
-        >
-          Summer
-        </button>
-        <button
-          type="button"
-          className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
-          onClick={() => setSelectedSeason("autumn")}
-        >
-          Autumn
-        </button>
-        <button
-          type="button"
-          className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
-          onClick={() => setSelectedSeason("winter")}
-        >
-          Winter
-        </button>
-      </div>
+          <div className="season-buttons">
+            <button
+              type="button"
+              className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("spring")}
+            >
+              Spring
+            </button>
+            <button
+              type="button"
+              className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("summer")}
+            >
+              Summer
+            </button>
+            <button
+              type="button"
+              className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("autumn")}
+            >
+              Autumn
+            </button>
+            <button
+              type="button"
+              className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("winter")}
+            >
+              Winter
+            </button>
+          </div>
+
+          <div className="seasonal-highlights">
+            {currentHighlights.map((item) => (
+              <section key={item.title} className="season-highlight-card">
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
+                <p>
+                  <a href={item.link}>
+                    <strong>{item.linkLabel}</strong>
+                  </a>
+                </p>
+              </section>
+            ))}
+          </div>
         </section>
       )}
 
