@@ -73,8 +73,8 @@ export default function MarkerDetail({ marker }) {
 
       <nav className="page-footer-links" aria-label="Page links">
         <a href="#top">Back to top</a>
-        <a href="/?marker=welcome">Welcome</a>
-        <a href="/">Trail Links</a>
+        <a href="./?marker=welcome">Welcome</a>
+        <a href="./?marker=trail-links">Trail Links</a>
       </nav>
     </main>
   )
