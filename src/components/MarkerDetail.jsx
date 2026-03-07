@@ -22,6 +22,9 @@ export default function MarkerDetail({ marker }) {
       </section>
 
       <section>
+        <p className="toggle-helper">
+          Tap Quick View for a fast read, or Go Deeper for a little more context.
+        </p>
         <p>
           <button
             type="button"
