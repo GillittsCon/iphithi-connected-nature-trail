@@ -2,10 +2,10 @@ import { useState } from "react"
 
 export default function MarkerDetail({ marker }) {
   const [viewMode, setViewMode] = useState("quick")
+  const [selectedSeason, setSelectedSeason] = useState("summer")
 
   return (
     <main>
-      
       <h1>{marker.title}</h1>
       <p>{marker.hook}</p>
 
@@ -16,10 +16,48 @@ export default function MarkerDetail({ marker }) {
 
       <p>{marker.transformationLine}</p>
 
-    <section>
+      <section>
         <h2>What it supports now</h2>
         <p>{marker.whatItSupportsNow}</p>
       </section>
+
+      {marker.id === "welcome" && (
+        <section>
+          <h2>Seasonal highlights</h2>
+          <p>Choose a season to see what to look for and where to start.</p>
+
+          <p>
+            <button
+              type="button"
+              className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("spring")}
+            >
+              Spring
+            </button>
+            <button
+              type="button"
+              className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("summer")}
+            >
+              Summer
+            </button>
+            <button
+              type="button"
+              className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("autumn")}
+            >
+              Autumn
+            </button>
+            <button
+              type="button"
+              className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
+              onClick={() => setSelectedSeason("winter")}
+            >
+              Winter
+            </button>
+          </p>
+        </section>
+      )}
 
       <section>
         {marker.id === "welcome" && (
