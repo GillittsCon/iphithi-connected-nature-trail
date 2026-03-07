@@ -91,7 +91,9 @@ export default function App() {
       <section>
         <h2>Explore the Trail</h2>
         <ul className="trail-links-list">
-          {markers.map((marker) => (
+          {markers
+            .filter((marker) => marker.id !== "welcome" && marker.id !== "dam")
+            .map((marker) => (
             <li key={marker.id}>
               <a className="trail-link-card" href={`?marker=${marker.id}`}>
                 <span className="trail-link-title">{marker.title}</span>
