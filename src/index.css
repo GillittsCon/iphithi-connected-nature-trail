@@ -125,6 +125,19 @@ strong {
   color: #ffffff;
 }
 
+.season-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.season-buttons .toggle-button {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 figure {
   margin: 0 0 22px;
 }

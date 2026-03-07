@@ -26,36 +26,36 @@ export default function MarkerDetail({ marker }) {
           <h2>Seasonal highlights</h2>
           <p>Choose a season to see what to look for and where to start.</p>
 
-          <p>
-            <button
-              type="button"
-              className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("spring")}
-            >
-              Spring
-            </button>
-            <button
-              type="button"
-              className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("summer")}
-            >
-              Summer
-            </button>
-            <button
-              type="button"
-              className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("autumn")}
-            >
-              Autumn
-            </button>
-            <button
-              type="button"
-              className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
-              onClick={() => setSelectedSeason("winter")}
-            >
-              Winter
-            </button>
-          </p>
+      <div className="season-buttons">
+        <button
+          type="button"
+          className={selectedSeason === "spring" ? "toggle-button active" : "toggle-button"}
+          onClick={() => setSelectedSeason("spring")}
+        >
+          Spring
+        </button>
+        <button
+          type="button"
+          className={selectedSeason === "summer" ? "toggle-button active" : "toggle-button"}
+          onClick={() => setSelectedSeason("summer")}
+        >
+          Summer
+        </button>
+        <button
+          type="button"
+          className={selectedSeason === "autumn" ? "toggle-button active" : "toggle-button"}
+          onClick={() => setSelectedSeason("autumn")}
+        >
+          Autumn
+        </button>
+        <button
+          type="button"
+          className={selectedSeason === "winter" ? "toggle-button active" : "toggle-button"}
+          onClick={() => setSelectedSeason("winter")}
+        >
+          Winter
+        </button>
+      </div>
         </section>
       )}
 
