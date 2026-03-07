@@ -4,7 +4,7 @@
   "title": "Welcome to the iPhithi Connected Nature Trail",
   "hook": "Scan, explore, and see how a restored, thriving reserve, connects to the suburb, and local gardens.",
   "beforeImage": {
-    "src": "/images/iphithi-before.webp",
+    "src": "images/iphithi-before.webp",
     "alt": "iPhithi Nature Reserve before restoration",
     "caption": "Before restoration, this abandoned land was dominated by alien plantation that dried up the stream and provided no support for wildlife."
   },
@@ -12,7 +12,7 @@
   "whatItSupportsNow": "iPhithi Nature Reserve now provides wetland, grassland, & woodland habitats, and the wildlife that depends on connected habitat.",
   "supportingImages": [
     {
-      "src": "/images/iphithi-now.webp",
+      "src": "images/iphithi-now.webp",
       "alt": "iPhithi Nature Reserve after restoration",
       "caption": "From above, the restored reserve reveals water, open habitat, and connected green space that visitors cannot fully see from the ground."
     }
@@ -27,7 +27,7 @@
     "title": "Pollinators / Grassland",
     "hook": "Pollinators don’t stop at the fence.",
     "beforeImage": {
-      "src": "/images/pollinators-before.webp",
+      "src": "images/pollinators-before.webp",
       "alt": "Before restoration view of the grassland area",
       "caption": "A grassland patch before restoration, showing bare, damaged ground after tree felling."
     },
@@ -35,12 +35,12 @@
     "whatItSupportsNow": "Dassies, birds, butterflies, insects, browsers (duiker/bushbuck), genets, and more.",
     "supportingImages": [
       {
-        "src": "/images/pollinators-bees.webp",
+        "src": "images/pollinators-bees.webp",
         "alt": "Bees using pollinator-friendly habitat in the reserve",
         "caption": "A bee collects pollen from a grassland wildflower (Hilliardiella sp.)"
       },
       {
-        "src": "/images/pollinators-butterflies.webp",
+        "src": "images/pollinators-butterflies.webp",
         "alt": "Butterflies supported by indigenous grassland plantings",
         "caption": "The Meadow White, <em>Pontia helice</em>, butterfly on Helichrysum sp."
       }
@@ -55,7 +55,7 @@
     "title": "Water / Wetland",
     "hook": "This wetland works harder than it looks.",
     "beforeImage": {
-      "src": "/images/wetland-before.webp",
+      "src": "images/wetland-before.webp",
       "alt": "Before restoration view of the wetland area",
       "caption": "iPhithi before restoration, showing old tree stumps and dry ground before water returned, dominated by lawn grass."
     },
@@ -63,12 +63,12 @@
     "whatItSupportsNow": "Three mongoose species, other wetland life such as crabs and frogs, birds, and drinking water for larger animals.",
     "supportingImages": [
       {
-        "src": "/images/wetland-frogs.webp",
+        "src": "images/wetland-frogs.webp",
         "alt": "Frogs supported by wetland habitat",
         "caption": "A Painted Reed frog calls from a reed stem in the wetland"
       },
       {
-        "src": "/images/wetland-birds.webp",
+        "src": "images/wetland-birds.webp",
         "alt": "Birdlife using the wetland area",
         "caption": "A Thick-billed Weaver on its nest attached to a Bullrush, <em>Typha capensis</em>."
       }
@@ -83,7 +83,7 @@
     "title": "Green Corridors / Woodland",
     "hook": "Wildlife needs a way through.",
     "beforeImage": {
-      "src": "/images/corridors-before.webp",
+      "src": "images/corridors-before.webp",
       "alt": "Before restoration view of the woodland or corridor area",
       "caption": "iPhithi before restoration, showing dense plantation and bare ground as clearing began."
     },
@@ -91,12 +91,12 @@
     "whatItSupportsNow": "Duiker, bushbuck, porcupines, genets, birds, bushpig, mongooses, and more use these protective corridors.",
     "supportingImages": [
       {
-        "src": "/images/corridors-animals.webp",
+        "src": "images/corridors-animals.webp",
         "alt": "Wildlife using connected corridor habitat",
         "caption": "A genet moves safely through the reserve at night."
       },
       {
-        "src": "/images/corridors-food-security.webp",
+        "src": "images/corridors-food-security.webp",
         "alt": "Woodland corridor supporting movement, food, and shelter",
         "caption": "Indigenous layers of trees, shrubs, wild grasses provide cover and food."
       }

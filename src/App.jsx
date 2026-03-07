@@ -5,7 +5,7 @@ export default function App() {
   const markers = getAllMarkers()
   const params = new URLSearchParams(window.location.search)
   const markerId = params.get("marker")
-  const selectedMarker = markerId ? getMarkerById(markerId) : null
+  const selectedMarker = markerId ? getMarkerById(markerId) : getMarkerById("welcome")
 
   if (selectedMarker) {
     return <MarkerDetail marker={selectedMarker} />
