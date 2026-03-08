@@ -32,18 +32,18 @@ export default function App() {
         linkLabel: "Start at the dam",
       },
       {
-        title: "Wetland flowers along the stream",
-        text: "Summer is a good season to walk the stream route and long boardwalk to notice flowering wetland plants.",
-        link: "?marker=water-wetland",
-        linkLabel: "Start at stream below the dam",
-      },
-      {
         title: "Gaudy Commodore butterfly",
-        text: "In summer, the Gaudy Commodore shows warm orange and brown tones. This seasonal colour change is influenced by temperature, and the summer and winter forms can look so different that they seem like separate species.",
+        text: "In summer, the Gaudy Commodore shows warm orange and brown tones. This seasonal colour change is influenced by temperature, and the summer and winter forms can look so different that they seem like separate species. Click the Winter button to see its winter/dry season form.",
         imageSrc: "images/gaudy-commodore-summer.webp",
         imageAlt: "Gaudy Commodore butterfly in summer colours",
         link: "?marker=pollinators",
         linkLabel: "Start at Pollinators / Grassland",
+      },
+      {
+        title: "Wetland flowers along the stream",
+        text: "Summer is a good season to walk the stream route and long boardwalk to notice flowering wetland plants.",
+        link: "?marker=water-wetland",
+        linkLabel: "Start at stream below the dam",
       },
     ],
     autumn: [
@@ -63,7 +63,7 @@ export default function App() {
     winter: [
       {
         title: "Gaudy Commodore butterfly",
-        text: "In winter, the same butterfly often appears in cooler blue tones. The temperature-linked colour shift is so strong that the winter and summer forms can look like different species.",
+        text: "In winter, the same butterfly often appears in cooler blue tones. The temperature-linked colour shift is so strong that the winter and summer forms can look like different species. Click the Summer button to see its summer/wet season form.",
         imageSrc: "images/gaudy-commodore-winter.webp",
         imageAlt: "Gaudy Commodore butterfly in winter colours",
         link: "?marker=pollinators",
