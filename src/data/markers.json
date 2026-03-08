@@ -2,7 +2,7 @@
   {
   "id": "welcome",
   "title": "Welcome to the iPhithi Connected Nature Trail",
-  "hook": "Today, you are standing in what was once a dense plantation of skyscraper-high invasive trees; the ‘After’ image is all around you, the Before image, is below.",
+  "hook": "Today, you are standing in what was once a dense plantation of skyscraper-high invasive trees; the ‘After’ image is all around you. Compare the Before and After images below.",
   "beforeImage": {
     "src": "images/iphithi-before.webp",
     "alt": "iPhithi Nature Reserve before restoration began",
