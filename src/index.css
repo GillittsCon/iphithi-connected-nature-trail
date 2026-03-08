@@ -235,3 +235,13 @@ figcaption {
 .season-highlight-card p:last-child {
   margin-bottom: 0;
 }
+
+.season-highlight-image {
+  margin: 0 0 10px 0;
+}
+
+.season-highlight-image img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}

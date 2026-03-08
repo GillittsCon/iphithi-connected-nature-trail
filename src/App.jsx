@@ -38,8 +38,10 @@ export default function App() {
         linkLabel: "Start at stream below the dam",
       },
       {
-        title: "Grasses in flower",
-        text: "Flowering grasses help show why grassland matters for pollinators, seed life, and the wider food web.",
+        title: "Gaudy Commodore butterfly",
+        text: "In summer, the Gaudy Commodore shows warm orange and brown tones. This seasonal colour change is influenced by temperature, and the summer and winter forms can look so different that they seem like separate species.",
+        imageSrc: "images/gaudy-commodore-summer.webp",
+        imageAlt: "Gaudy Commodore butterfly in summer colours",
         link: "?marker=pollinators",
         linkLabel: "Start at Pollinators / Grassland",
       },
@@ -59,6 +61,14 @@ export default function App() {
       },
     ],
     winter: [
+      {
+        title: "Gaudy Commodore butterfly",
+        text: "In winter, the same butterfly often appears in cooler blue tones. The temperature-linked colour shift is so strong that the winter and summer forms can look like different species.",
+        imageSrc: "images/gaudy-commodore-winter.webp",
+        imageAlt: "Gaudy Commodore butterfly in winter colours",
+        link: "?marker=pollinators",
+        linkLabel: "Start at Pollinators / Grassland",
+      },
       {
         title: "Woodland structure and shelter",
         text: "Winter is a good time to notice the shape of corridors and how sheltered spaces help movement through the reserve.",
@@ -141,15 +151,22 @@ export default function App() {
 
         <div className="seasonal-highlights">
           {currentHighlights.map((item) => (
-            <section key={item.title} className="season-highlight-card">
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-              <p>
-                <a href={item.link}>
-                  <strong>{item.linkLabel}</strong>
-                </a>
-              </p>
-            </section>
+          <section key={item.title} className="season-highlight-card">
+            <h3>{item.title}</h3>
+
+            {item.imageSrc && (
+              <figure className="season-highlight-image">
+                <img src={item.imageSrc} alt={item.imageAlt} />
+              </figure>
+            )}
+
+            <p>{item.text}</p>
+            <p>
+              <a href={item.link}>
+                <strong>{item.linkLabel}</strong>
+              </a>
+            </p>
+          </section>
           ))}
         </div>
       </section>
